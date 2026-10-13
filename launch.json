@@ -1,0 +1,20 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "Polyneum",
+    "name": "Polyneum",
+    "symbol": "POLYNEUM",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {"poolBps":8800,"initialMarketCapWei":"2500000000000000000000","remainderTo":"0x49c95a6ee32e9c0dc7a353c078e6158304bbce9f"},
+  "notes": "Polyneum is a fixed-supply ERC-20 with 18 decimals. Its argument-free constructor mints all 1,000,000,000 POLYNEUM to msg.sender, the launch factory. It has no further minting, burning, transfer fees or privileged functions. No application contracts are included. The pool pairs with IMD at a 1.25% fee. initialPrice records provenance only; the opening price is derived from economics.initialMarketCapWei and the token supply."
+}
